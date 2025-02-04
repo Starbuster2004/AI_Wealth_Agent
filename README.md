@@ -29,8 +29,8 @@ AI Wealth Manager is a cutting-edge financial planning tool designed specificall
 ## 🔧 Installation Guide
 ### 1️⃣ Clone the Repository
 ```sh
- git clone https://github.com/yourusername/ai-wealth-manager.git
- cd ai-wealth-manager
+ git clone https://github.com/Starbuster2004/AI_Wealth_Agent.git
+ 
 ```
 
 ### 2️⃣ Install Dependencies
