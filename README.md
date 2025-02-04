@@ -76,5 +76,5 @@ We welcome contributions to improve this project. Feel free to **fork the repo, 
 ---
 
 ## 📩 Contact
-📧 Email: [support@aiwealthindia.com](mailto:support@aiwealthindia.com)  
-📌 LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)  
+📧 Email: [govindrajkotalwar038@gmail.com](mailto:govindrajkotalwar038@gmail.com)  
+📌 LinkedIn: [Govindraj Kotalwar](https://www.linkedin.com/in/govindraj-kotalwar-2004-297986257/)  
