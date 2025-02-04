@@ -47,7 +47,7 @@ Store them in an `.env` file or enter them in the Streamlit sidebar.
 
 ### 4️⃣ Run the Application
 ```sh
-streamlit run app.py
+streamlit run personal_finance_agent.py
 ```
 
 ---
@@ -58,14 +58,8 @@ streamlit run app.py
 3️⃣ **Personalized Plan Generated** → **Investment roadmap, tax optimization, risk-based allocation.**  
 4️⃣ **Actionable Recommendations** → SEBI-compliant strategies for wealth creation.  
 
----
 
-## 📌 Screenshots
-### 🔹 User Dashboard
-![Dashboard](https://your-image-link.com/dashboard.png)
 
-### 🔹 Personalized Financial Plan
-![Plan](https://your-image-link.com/financial-plan.png)
 
 ---
 
