@@ -1,80 +1,92 @@
-# AI Wealth Manager for India 
+# 🇮🇳 AI Wealth Manager for India
 
-### Intelligent Financial Planning Powered by AI & RBI-Compliant Strategies
+> **Professional-Grade Financial Planning for Indian Residents**
 
-## 🚀 Overview
-AI Wealth Manager is a cutting-edge financial planning tool designed specifically for the Indian market. It leverages **Google Gemini AI** and **SerpAPI** to provide **personalized, data-driven investment strategies** while ensuring compliance with SEBI and RBI regulations.
+![Banner](https://img.freepik.com/free-vector/flat-design-indian-rupee-currency-symbol-illustration_23-2149340102.jpg?w=1380&t=st=1718030000~exp=1718030600~hmac=example) <!-- Replace with your own banner if desired -->
 
 ---
 
-## 🎯 Key Features
-✅ **Personalized Financial Planning** – Tailored strategies for different income groups, life stages, and goals.  
-✅ **Real-Time Market Insights** – Fetches data from trusted sources like Groww, Moneycontrol, and Cleartax.  
-✅ **AI-Powered Investment Strategies** – Recommends SEBI-compliant investments based on your risk profile.  
-✅ **Tax Optimization & Budgeting** – Helps maximize savings using **80C, 80D, LTCG exemptions** and smart budgeting models.  
-✅ **Emergency Fund & Debt Management** – Provides strategies to build financial security and manage liabilities.  
-✅ **User-Friendly Interface** – Built with **Streamlit** for a seamless, interactive experience.  
+## 🚀 Overview
+
+**AI Wealth Manager for India** is a Streamlit-powered web app that delivers personalized, SEBI-compliant financial plans for Indian users. Leveraging Google Gemini AI and real-time market research, it crafts actionable investment, savings, and tax strategies tailored to your goals, risk profile, and Indian regulations.
+
+---
+
+## ✨ Features
+
+- 🔒 **Secure**: API keys are never stored
+- 🇮🇳 **India-Specific**: RBI rates, Indian tax laws, and investment options
+- 🤖 **AI-Driven**: Uses Gemini AI for plan generation
+- 📈 **Real-Time Research**: Integrates SerpAPI for up-to-date Indian financial news
+- 🧮 **Customizable Inputs**: Income, expenses, risk, horizon, goals, and more
+- 📊 **Visual Reports**: Bullet points, tables, and scenario-based recommendations
+- 🛡️ **Regulatory Compliance**: SEBI/RBI guidelines and disclaimers
+
+---
+
+## 🖼️ Screenshots
+
+> _Add your own screenshots here!_
+
+| Home Page | Financial Plan |
+|-----------|---------------|
+| ![Home](https://placehold.co/400x250?text=Home+Page) | ![Plan](https://placehold.co/400x250?text=Financial+Plan) |
 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend**: Streamlit (Python)
-- **AI Engine**: Google Gemini AI
-- **Data Aggregation**: SerpAPI (Google Search API)
-- **Regulatory Compliance**: SEBI & RBI Guidelines
-- **Deployment**: Cloud-based (Can be hosted on Streamlit Sharing, Azure, or AWS)
+
+- [Python 3.8+](https://www.python.org/)
+- [Streamlit](https://streamlit.io/)
+- [Google Gemini AI](https://makersuite.google.com/app/apikey)
+- [SerpAPI](https://serpapi.com/)
+- [Requests](https://docs.python-requests.org/)
 
 ---
 
-## 🔧 Installation Guide
-### 1️⃣ Clone the Repository
-```sh
- git clone https://github.com/Starbuster2004/AI_Wealth_Agent.git
- 
-```
+## ⚡ Quick Start
 
-### 2️⃣ Install Dependencies
-```sh
-pip install -r requirements.txt
-```
-
-### 3️⃣ Configure API Keys
-You need API keys for **Google Gemini AI** and **SerpAPI**.
-- Get **Gemini API Key** → [Google AI Studio](https://makersuite.google.com/app/apikey)
-- Get **SerpAPI Key** → [SerpAPI](https://serpapi.com/manage-api-key)
-
-Store them in an `.env` file or enter them in the Streamlit sidebar.
-
-### 4️⃣ Run the Application
-```sh
-streamlit run personal_finance_agent.py
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/ai-wealth-manager-india.git
+   cd ai-wealth-manager-india
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Get your API keys:**
+   - [Gemini API Key](https://makersuite.google.com/app/apikey)
+   - [SerpAPI Key](https://serpapi.com/manage-api-key)
+4. **Run the app:**
+   ```bash
+   streamlit run personal_finance_agent.py
+   ```
+5. **Open in browser:**
+   Visit [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 🏦 How It Works
-1️⃣ **User Inputs Financial Profile** → Monthly income, expenses, savings, goals, risk tolerance.  
-2️⃣ **AI Analyzes Data** → Uses **real-time Indian financial data** & market trends.  
-3️⃣ **Personalized Plan Generated** → **Investment roadmap, tax optimization, risk-based allocation.**  
-4️⃣ **Actionable Recommendations** → SEBI-compliant strategies for wealth creation.  
+## 📋 Usage
 
-
-
+- Enter your Gemini and SerpAPI keys in the sidebar
+- Fill in your financial profile (income, expenses, goals, etc.)
+- Click **Generate Financial Plan**
+- Review your personalized, SEBI-compliant plan and curated resources
 
 ---
 
-## ⚠️ Disclaimer
-This AI Wealth Manager is **not a substitute for professional financial advice**. Investments are subject to **market risks**. Always consult a certified financial advisor before making investment decisions. 
+## 📚 License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-## 📢 Contribute & Support
-We welcome contributions to improve this project. Feel free to **fork the repo, submit PRs, or suggest features**!
+## 👨‍💻 Contact & Support
 
-**⭐ Star this repository if you find it useful!**
+- Email: [india-wealth@finplan.in](mailto:india-wealth@finplan.in)
+- Issues: [GitHub Issues](https://github.com/yourusername/ai-wealth-manager-india/issues)
 
 ---
 
-## 📩 Contact
-📧 Email: [govindrajkotalwar038@gmail.com](mailto:govindrajkotalwar038@gmail.com)  
-📌 LinkedIn: [Govindraj Kotalwar](https://www.linkedin.com/in/govindraj-kotalwar-2004-297986257/)  
+> _Empowering Indian investors with AI-driven, compliant financial advice!_
