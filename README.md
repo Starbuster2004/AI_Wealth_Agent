@@ -26,7 +26,7 @@
 
 ## 🖼️ Screenshots
 
-> _Add your own screenshots here!_
+> _ screenshots here!_
 
 | Home Page | Financial Plan |
 |-----------|---------------|
@@ -84,8 +84,8 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## 👨‍💻 Contact & Support
 
-- Email: [india-wealth@finplan.in](mailto:india-wealth@finplan.in)
-- Issues: [GitHub Issues](https://github.com/yourusername/ai-wealth-manager-india/issues)
+- Email: [india-wealth@finplan.in](govindrajkotalwar038@gmail.com)
+- Issues: [GitHub Issues](https://https://github.com/Starbuster2004/AI_Wealth_Agent/issues)
 
 ---
 
