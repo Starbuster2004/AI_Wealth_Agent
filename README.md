@@ -2,7 +2,7 @@
 
 > **Professional-Grade Financial Planning for Indian Residents**
 
-![Banner](https://img.freepik.com/free-vector/flat-design-indian-rupee-currency-symbol-illustration_23-2149340102.jpg?w=1380&t=st=1718030000~exp=1718030600~hmac=example) <!-- Replace with your own banner if desired -->
+
 
 ---
 
