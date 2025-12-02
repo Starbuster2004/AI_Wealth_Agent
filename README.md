@@ -1,92 +1,122 @@
-# 🇮🇳 AI Wealth Manager for India
+```markdown
+██        ██    ██  ██    ██  ████████  ██    ██
+██        ██    ██  ███  ███  ██        ███   ██
+██        ██    ██  ████████  ██████    ██ ██ ██
+██        ██    ██  ██ ██ ██  ██        ██  ████
+██        ██    ██  ██    ██  ██        ██   ███
+████████   ██████   ██    ██  ████████  ██    ██
 
-> **Professional-Grade Financial Planning for Indian Residents**
+LUMEN — Intelligent guidance, clear outcomes.
 
+AI_Wealth_Agent — Personal Finance Agent (prototype)
+A concise, practical README tailored to the repository's current contents.
 
+Status: experimental prototype • Main language: Python
 
----
+Overview
+--------
+AI_Wealth_Agent is a compact Python prototype centered on a single agent script (personal_finance_agent.py) that demonstrates local logic for personal finance / wealth-management tasks. This README explains how to run the existing code, what is present in the repository now, and practical suggestions to improve the project structure.
 
-## 🚀 Overview
+What’s in this repo (current)
+-----------------------------
+- personal_finance_agent.py — primary script / main entry point (prototype logic and examples).
+- requirements.txt — Python dependencies.
+- .venv/ — a committed virtual environment (recommended to remove and add to .gitignore).
 
-**AI Wealth Manager for India** is a Streamlit-powered web app that delivers personalized, SEBI-compliant financial plans for Indian users. Leveraging Google Gemini AI and real-time market research, it crafts actionable investment, savings, and tax strategies tailored to your goals, risk profile, and Indian regulations.
+Quickstart — run locally
+------------------------
+Prerequisites
+- Python 3.9+
+- git and pip
+- Recommended: use a virtual environment
 
----
+Clone and prepare
+```bash
+git clone https://github.com/Starbuster2004/AI_Wealth_Agent.git
+cd AI_Wealth_Agent
+# remove committed virtualenv if you want a clean environment
+rm -rf .venv
+python -m venv .venv
+# macOS / Linux
+source .venv/bin/activate
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
 
-## ✨ Features
+Run the agent
+```bash
+# Inspect help (if implemented)
+python personal_finance_agent.py --help
 
-- 🔒 **Secure**: API keys are never stored
-- 🇮🇳 **India-Specific**: RBI rates, Indian tax laws, and investment options
-- 🤖 **AI-Driven**: Uses Gemini AI for plan generation
-- 📈 **Real-Time Research**: Integrates SerpAPI for up-to-date Indian financial news
-- 🧮 **Customizable Inputs**: Income, expenses, risk, horizon, goals, and more
-- 📊 **Visual Reports**: Bullet points, tables, and scenario-based recommendations
-- 🛡️ **Regulatory Compliance**: SEBI/RBI guidelines and disclaimers
+# Or run the script directly
+python personal_finance_agent.py
+```
 
----
+If the script requires API keys or configs, set environment variables first. Example (bash):
+```bash
+export OPENAI_API_KEY="sk-..."
+python personal_finance_agent.py
+```
+Check the top of personal_finance_agent.py for exact environment variable names and required configuration.
 
-## 🖼️ Screenshots
+Repository hygiene recommendations
+---------------------------------
+To make the repo cleaner and more portable:
+1. Remove the committed virtual environment:
+   - Delete the `.venv/` directory from the repo.
+2. Add a `.gitignore` at repo root with common Python ignores:
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-> _ screenshots here!_
+# Virtual environments
+.venv/
+env/
+venv/
 
-| Home Page | Financial Plan |
-|-----------|---------------|
-| ![Home](https://placehold.co/400x250?text=Home+Page) | ![Plan](https://placehold.co/400x250?text=Financial+Plan) |
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
 
----
+# IDEs
+.vscode/
+.idea/
+```
+3. Add a LICENSE (MIT suggested) if you want to open-source permissively.
+4. Add a short CONTRIBUTING.md and a tests/ folder for unit tests.
 
-## 🛠️ Tech Stack
+Recommended README additions (next improvements)
+-----------------------------------------------
+- Usage examples: show expected input & a sample run with sample output.
+- Config reference: list required env vars or provide an example config file.
+- Minimal API docs: describe key functions or classes in personal_finance_agent.py.
+- Examples directory: small sample data and demo invocation.
+- Tests and CI: add pytest tests and a GitHub Actions workflow to run them on push.
 
-- [Python 3.8+](https://www.python.org/)
-- [Streamlit](https://streamlit.io/)
-- [Google Gemini AI](https://makersuite.google.com/app/apikey)
-- [SerpAPI](https://serpapi.com/)
-- [Requests](https://docs.python-requests.org/)
+Security & disclaimer
+---------------------
+- Do not commit API keys or secrets. Use environment variables or secret managers.
+- This project is a prototype and not financial advice. Do not use in production without rigorous validation and compliance checks.
 
----
+Contributing & contact
+----------------------
+Contributions are welcome. Recommended flow:
+1. Fork the repo.
+2. Create a branch: git checkout -b feat/describe-change
+3. Add tests, update README, open a PR.
 
-## ⚡ Quick Start
+Maintainer: Starbuster2004 — https://github.com/Starbuster2004
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/ai-wealth-manager-india.git
-   cd ai-wealth-manager-india
-   ```
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Get your API keys:**
-   - [Gemini API Key](https://makersuite.google.com/app/apikey)
-   - [SerpAPI Key](https://serpapi.com/manage-api-key)
-4. **Run the app:**
-   ```bash
-   streamlit run personal_finance_agent.py
-   ```
-5. **Open in browser:**
-   Visit [http://localhost:8501](http://localhost:8501)
+Acknowledgements
+----------------
+Prototype built for experimentation and learning. If you'd like, I can:
+- create the .gitignore and LICENSE files and open a pull request,
+- expand the README with examples drawn from personal_finance_agent.py,
+- or extract a small CLI and add a demo under examples/.
 
----
-
-## 📋 Usage
-
-- Enter your Gemini and SerpAPI keys in the sidebar
-- Fill in your financial profile (income, expenses, goals, etc.)
-- Click **Generate Financial Plan**
-- Review your personalized, SEBI-compliant plan and curated resources
-
----
-
-## 📚 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 👨‍💻 Contact & Support
-
-- Email: [india-wealth@finplan.in](govindrajkotalwar038@gmail.com)
-- Issues: [GitHub Issues](https://https://github.com/Starbuster2004/AI_Wealth_Agent/issues)
-
----
-
-> _Empowering Indian investors with AI-driven, compliant financial advice!_
+```
+```
